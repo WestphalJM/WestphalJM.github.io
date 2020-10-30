@@ -1,0 +1,71 @@
+
+/* Jacob Westphal 10/30/20 */
+
+@font-face {
+    font-family: 'black_jackregular';
+    src: url('/fonts/blackjack-webfont.woff2') format('woff2'),
+         url('/fonts/blackjack-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+#outerwrapper {
+    width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+} 
+
+.floatleft { 
+    float: left;
+    margin-right: 3%;
+}
+
+.floatright {
+    float: right;
+    margin-left: 3%;
+}
+
+main, footer { 
+    clear: both;
+}
+
+body {
+    background-color: #B8D1EB;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+main {
+    background-color: #C5A98B;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+h1 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 55px;
+}
+
+h2 {
+    font-family: 'black_jackregular';
+    font-weight: normal;
+    font-style: italic;
+    font-size: 20px;
+    
+
+}
+
+main ul {
+    list-style-image: url("/images/tomato.png");
+}
+
+footer {
+    font-size: .75em;
+    text-align: center;
+    background-color:rgba(187, 129, 76, 0.788);
+    padding: 10px 0 10px;
+}
