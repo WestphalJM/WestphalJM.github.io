@@ -14,8 +14,8 @@
 
 @font-face {
    font-family: 'Quicksand';
-   src: url(fonts/Quicksand-Regular.woff) format('woff'), 
-        url(fonts/Quicksand-Regular.ttf) format('truetype');
+   src: url(../fonts/Quicksand-Regular.woff) format('woff'), 
+        url(../fonts/Quicksand-Regular.ttf) format('truetype');
 }
 
 /* HTML and Body Styles */
