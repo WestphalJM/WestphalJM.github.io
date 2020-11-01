@@ -13,7 +13,7 @@
 @charset "utf-8";
 
 @font-face {
-   font-family: Quicksand;
+   font-family: 'Quicksand';
    src: url(/fonts/Quicksand-Regular.woff) format('woff'), 
         url(/fonts/Quicksand-Regular.ttf) format('truetype');
 }
@@ -42,7 +42,7 @@ h2 {
 }
 
 h1, h2 {
-   font-family: Quicksand, Verdana, Geneva, sans-serif;
+   font-family: 'Quicksand', Verdana, Geneva, sans-serif;
 	letter-spacing: 0.1em;
 }
 
