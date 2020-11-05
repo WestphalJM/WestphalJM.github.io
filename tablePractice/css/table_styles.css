@@ -1,0 +1,66 @@
+/* Jacob Westphal & Sean James */
+
+/* body elements */
+body {
+    background-image: linear-gradient(to bottom left, red, yellow);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+/* general table elements */
+table{
+    width: 100%;
+    background-color: indianred;
+    padding: 2px;
+    border: 5px solid red;
+}
+
+caption {
+    font-size: 25px;
+    color: white;
+}
+
+td, th {
+    border: 1px solid black;
+}
+
+
+
+/*song table elements */
+.songTable {
+    margin-bottom: 3em;
+    border-radius: 10px;
+}
+
+.songTable > thead {
+    background-color: white;
+}
+
+.songList > td:nth-child(1n) {
+    background-color: lightgray;
+}
+
+.songList > td:nth-child(1) {
+    background-color: aquamarine;
+}
+
+.songList > td:nth-child(2) {
+    background-color: aquamarine;
+}
+
+.songTable > colgroup {
+    background-color: white;
+}
+
+/*Resturants table elements */
+.resturantTable > thead {
+    background-color: white;
+}
+
+.resturantList > td:nth-child(1n) {
+    background-color: lightgray;
+}
+
+tfoot {
+    text-align: center;
+    background-color: white;
+}

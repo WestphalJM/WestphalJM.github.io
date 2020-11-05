@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+
+<!--Jacob Westphal & Sean James 11/05/20-->
+
+<html lang="en">
+
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "description" content = "Table Practice Music and Resturants">
+    <meta name = "keywords" content = "music, resturants">
+    <meta name = "author" content = "Jacob Westphal & Sean James">
+    <meta name = "viewport" content = "width = device-with, initial-scale = 1.0">
+    <link href="css/table_styles.css" rel="stylesheet">
+    <title>If You Build It, They Will Come</title>
+</head>
+
+<body>
+    <table class="songTable">
+        <caption>Top Four Favorite Songs</caption>
+        <!-- Example of how to use colgroup, page 173  
+             colgroup must be after the optional caption and before the optional thead in the table. 
+             colgroup's span attribute defines the number of columns in the group; the default value is 1-->
+             <colgroup span="4">
+            </colgroup>
+        <thead>
+            <tr>
+                <th>Genre</th>
+                <th>Song Title</th>
+                <th>Artist</th>
+                <th>Youtube Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="songList">
+                <td>Math Rock</td>
+                <td>Cation</td>
+                <td>Tiny Moving Parts</td>
+                <td><a href="https://www.youtube.com/watch?v=qn_jePJTIRk&ab_channel=TripleCrownRecords" target="_blank">Caution on Youtube </a></td>
+            </tr>
+            <tr>
+                <td>Alt Rock</td>
+                <td>Daylily</td>
+                <td>Movements</td>
+                <td><a href="https://www.youtube.com/watch?v=PedACuLiMxU&ab_channel=FearlessRecords" target="_blank">Daylily on Youtube </a></td>
+            </tr>
+            <tr class="songList">
+                <td>Emo Rock</td>
+                <td>MakeDamnSure</td>
+                <td>Taking Back Sunday</td>
+                <td><a href="https://www.youtube.com/watch?v=4ldjbjwim4k&ab_channel=takingbacksunday" target="_blank">MakeDamnSure on Youtube </a></td>
+            </tr>
+            <tr>
+                <td>Indie Pop</td>
+                <td>Royals</td>
+                <td>Lorde</td>
+                <td><a href="https://www.youtube.com/watch?v=nlcIKh6sBtc&ab_channel=LordeVEVO" target="_blank">MakeDamnSure on Youtube </a></td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="resturantTable">
+        <caption>Top Four Favorite Resturants in Boise Area</caption>
+        <thead>
+            <tr>
+                <th>Resturant Name</th>
+                <th>Niche</th>
+                <th>Address</th>
+                <th>Website Link</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Krung Thai</td>
+                <td>Thai/Asian</td>
+                <td>3008 Garrity Blvd, Nampa, ID, 83687</td>
+                <td><a href="https://www.5star.express/cities/nampa_id/categories/restaurant/krung-thai-restaurant-nampa-82?address=&orderType=delivery&orderTime=2020-11-05T18:45:00Z" target="_blank">Visit Krung Thai Website</a></td>
+            </tr>
+            <tr class="resturantList">
+                <td>Bittercreek Alehouse</td>
+                <td>American Pub</td>
+                <td>246 N 8th St, Boise, ID 83702</td>
+                <td><a href="https://www.bittercreekalehouse.com/" target="_blank">Visit BitterCreek Alehouse Website</a></td>
+            </tr>
+                <tr>
+                <td>Dong Khanh Vietnamese Restaurant</td>
+                <td>Vietnamese</td>
+                <td>2137 Broadway Ave, Boise, ID 83706</td>
+                <td><a href="https://www.facebook.com/profile.php?id=113306548702996" target="_blank">Visit Dong Khanh Website</a></td>
+            </tr>
+            <tr class="resturantList">
+                <td>Chow Public Market and Eatery</td>
+                <td>American Bar</td>
+                <td>7609 W Overland Rd, Boise, ID 83709</td>
+                <td><a href="https://chowpublicmarket.com/" target="_blank">Visit Chow Public Market Website</a></td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">Example of using ColSpan</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+    </body>
+</html>
