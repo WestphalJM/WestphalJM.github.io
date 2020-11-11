@@ -1,0 +1,18 @@
+table {
+    font-family: 'Oxygen', 'Times New Roman', Times, sans-serif;
+    width: 100%;
+    padding: 7px;
+    border: 2px solid #414141;
+    border-radius: 15px;
+}
+
+td {
+    border: 1px solid black;
+    font-size: 20px;
+}
+
+caption {
+    text-decoration: underline;
+    font-size: 20px;
+}
+

@@ -1,0 +1,130 @@
+/*fonts*/
+@font-face {
+    font-family: 'ralewaymedium';
+    src: url('/fonts/raleway-medium-webfont.woff2') format('woff2'),
+         url('/fonts/raleway-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'ralewaymedium_italic';
+    src: url('/fonts/raleway-mediumitalic-webfont.woff2') format('woff2'),
+         url('/fonts/raleway-mediumitalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*General Elements */
+
+body{
+    background-color: rgb(65, 65, 65);
+}
+
+h1 {
+    margin-left: 150px;
+    text-align: center;
+    color: rgb(107, 148, 161);
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.intro > a {
+    text-decoration: none;
+}
+
+main {
+    margin-left: 150px;
+    background-color: rgb(107, 148, 161);
+    border-radius: 15px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+footer {
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+}
+
+/*image elements */
+
+.profilePic {
+    display: block;
+    margin-left: 150px;
+    text-align: center;    
+}
+
+/*Navigation elements */
+
+.verticalNav {
+    background-color: rgb(107, 148, 161);
+    height: 100%;
+    width:150px;
+    position: fixed; 
+    top: 0;
+    left: 0;
+    padding-top: 20px;
+    background-image: linear-gradient(to right,#9cc6d3,#414141);
+    font-family: 'ralewaymedium', 'Times New Roman', Times, serif;
+
+}
+
+nav > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;    
+}
+
+.verticalNav a {
+    display: block;
+    text-decoration: none;
+    color: rgb(65, 65, 65);
+}
+nav a:hover {
+    background-color: rgb(149, 198, 212);
+    width:125px;
+    text-align: center;
+    border-radius: 15px;
+    font-family: 'ralewaymedium_italic', 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+/*Form element*/
+fieldset {
+    font-size: 20px;
+}
+
+textarea {
+    font-size: 20px;
+}
+
+select {
+    font-size: 16px;
+}
+
+/*unorder list Elements */
+ul {
+    font-family: 'Oxygen', 'Times New Roman', Times, sans-serif;
+    list-style-type: none;
+    font-size: 20px;
+    padding-left: 305px;
+}
+
+#work {
+    font-family: 'Oxygen', 'Times New Roman', Times, sans-serif;
+    text-decoration: underline;
+    text-align: center;
+}
