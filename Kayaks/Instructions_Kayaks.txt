@@ -1,0 +1,27 @@
+  Create an external style sheet
+  Make the HTML code conform to HTML5 standards
+	nav element, ul element, & list elements added
+        only one nav element; move bottom index/tours/reservations/contact into footer element
+
+  Move the embedded css styles into the external style sheet
+  Add "under construction" page for Tours
+  Add "under construction" page for Reservations
+  Add "under construction" page for Contact
+
+  Make the website responsive 
+     HTML: add <meta name="viewport" content="width=device-width, initial-scale-1" />
+     CSS: establish a breakpoint with a min-width of 641px
+     Refer to the screenshots and notice that:
+          mobile: nav should display as block format
+          mobile: h1 is hidden (hint: display property)
+          mobile: apply a linear gradient background
+
+          tablet: set the background back to white
+          tablet: display h1 (hint: display property)
+
+
+If the mobile css set a color for the background, how do I set the background back to white or transparent again?
+	background: transparent;
+
+Resources:
+   https://cssgradient.io/ <--- linear gradient css code generator

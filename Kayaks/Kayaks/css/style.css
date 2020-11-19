@@ -1,0 +1,60 @@
+
+.bar ul{ 
+    background-color: #152420; 
+
+}
+.bar > ul > li {
+    display: block;
+    
+}
+h1 {
+    display: none;
+}
+main {
+    background-image: none;
+}
+
+body {
+    background: linear-gradient(180deg, rgba(125,231,255,1) 21%, rgba(255,255,255,1) 79%);
+    background-repeat: no-repeat;
+}
+    
+
+/*nav bar top */
+@media only screen and (min-width:641px){
+
+    .bar ul{ 
+        background-color: #152420; 
+
+    }
+
+    .bar > ul > li {
+        display: inline;
+        
+        
+    }
+
+    /*Main elements*/
+    main { 
+        background-image: url(../images/heroback.jpg);
+        background-repeat: no-repeat;
+        
+    }
+
+    body{
+         background: white;
+    }
+
+    h1 {
+         display: block;
+    }
+
+    .notfinished {
+        margin-bottom: 145px;
+    }
+    
+}
+
+
+
+
