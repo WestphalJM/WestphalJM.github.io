@@ -1,0 +1,80 @@
+/*
+Team Members:
+Date: Current Date
+File Name: styles.css
+*/
+
+.bg-red {
+    background-color: #780001;
+}
+
+.bg-light-blue {
+     background-color: #ccd5e6;   
+}
+
+.width {
+    width: 100%;
+}
+
+.bg-grey {
+    background-color: rgb(228, 227, 227);
+}
+
+.width1 {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+header {
+    width: 100%;
+}
+footer {
+    width: 100%;
+}
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    
+}
+td, th {
+    border: 1px #dddddd;
+    text-align: left;
+    padding: 20px;
+}
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+/* Show mobile class, hide tablet-desktop class and menu-links id */
+.mobile {
+    display: block;
+}
+
+.tablet-desktop {
+    display: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media (min-width: 768px) {  
+
+    /* Tablet Viewport: Show tablet-desktop class, hide mobile class */
+    .tablet-desktop {
+        display: block;
+    }
+
+    .mobile {
+        display: none;
+    }
+    
+}
