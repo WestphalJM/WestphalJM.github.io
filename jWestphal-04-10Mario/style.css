@@ -57,6 +57,7 @@ html, body{
   animation-duration: 5s;
   animation-fill-mode: both;
   animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
 
 .cloud {
