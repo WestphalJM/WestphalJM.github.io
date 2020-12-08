@@ -81,7 +81,7 @@ html, body{
 
 @keyframes drive {
   from{transform: translatex(-200px)}
-  to {transform: translateX(2000px)}
+  to {transform: translateX(3000px)}
 }
 
 @keyframes wind {
