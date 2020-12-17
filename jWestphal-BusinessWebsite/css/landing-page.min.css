@@ -1,0 +1,194 @@
+/*!
+ * Start Bootstrap - Landing Page v5.0.9 (https://startbootstrap.com/theme/landing-page)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-landing-page/blob/master/LICENSE)
+ */
+ 
+ @import url('https://fonts.googleapis.com/css2?family=Inknut+Antiqua&display=swap');
+
+ body{
+    font-family: 'Inknut Antiqua',Helvetica,Arial,sans-serif}
+ h1,h2,h3,h4,h5,h6{font-family: 'Inknut Antiqua',Helvetica,Arial,sans-serif;font-weight:700
+}
+
+ header.masthead{
+    position: static;
+    background-color:#343a40;
+    background:url(../img/bg-dark-beer.jpg) no-repeat center;
+    background-size: cover;
+    margin-top: 125px;
+    padding-top:8rem;
+    padding-bottom:8rem
+}
+ 
+ header.masthead .overlay{
+     position: static;
+     background-color:#212529;
+     height:100%;
+     width:100%;
+     top:0;
+     left:0;
+     opacity:.3;
+}
+ 
+ header.masthead h1{
+     font-size:2rem;
+     background: black;
+}
+
+.bg-black {
+    background: black;
+}
+
+ @media (min-width:768px){
+     header.masthead{padding-top:25rem;padding-bottom:25rem}
+     header.masthead h1{font-size:3rem}
+}
+ 
+ .showcase .showcase-text{
+     padding:3rem
+    }
+ 
+ .showcase .showcase-img{
+     min-height:30rem;background-size:cover
+}
+ 
+ @media (min-width:768px){
+     .showcase .showcase-text{
+         padding:7rem
+        }
+}
+
+.features-icons{
+    padding-top:7rem;
+    padding-bottom:7rem
+}
+
+.features-icons .features-icons-item{
+    max-width:20rem
+}
+
+.features-icons .features-icons-item .features-icons-icon{
+    height:7rem
+}
+
+.features-icons .features-icons-item .features-icons-icon i{
+    font-size:4.5rem
+}
+
+.features-icons .features-icons-item:hover .features-icons-icon i{
+    font-size:5rem
+}
+
+.testimonials{
+    padding-top:7rem;
+    padding-bottom:7rem}
+
+.testimonials .testimonial-item{
+    max-width:18rem}
+
+.testimonials .testimonial-item img{
+    max-width:12rem;box-shadow:0 5px 5px 0 #adb5bd}
+
+.call-to-action{
+    position:relative;
+    background-color:#343a40;background:url(../img/bg-dark-beer.jpg) no-repeat center center;
+    background-size:cover;
+    padding-top:7rem;
+    padding-bottom:7rem
+}
+
+.call-to-action .overlay{
+    position:absolute;
+    background-color:#212529;
+    height:100%;
+    width:100%;
+    top:0;
+    left:0;
+    opacity:.3
+}
+
+footer.footer{
+    padding-top:4rem;
+    padding-bottom:4rem
+}
+
+
+/*Nav elements */
+
+nav {
+    background: black;
+}
+li > a:hover {
+    background: black;
+}
+
+.nav-link:hover {
+    opacity: 1;
+  }
+  
+.nav-link {
+text-decoration: none;
+padding: 20px 0px;
+margin: 0px 20px;
+display: inline-block;
+position: relative;
+opacity: 0.75;
+}
+
+.nav-link::before {
+transition: 300ms;
+height: 5px;
+content: "";
+position: absolute;
+background-color: white;
+}
+
+.nav-link-ltr::before {
+width: 0%;
+bottom: 10px;
+}
+
+.nav-link-ltr:hover::before {
+width: 100%;
+}
+
+.carousel-item img {
+    margin: auto; 
+    display: block;
+    }
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+    
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+/* card css */
+
+.widthcard {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+    background-color: transparent;
+  }
+
+a:hover {
+    color: white;
+    text-decoration: underline;
+    border-radius: 5px;
+    background-image: none;
+  }
+
+
+  .icon-center {
+    display: block;
+    margin: auto;
+}
